@@ -25,3 +25,6 @@ Test db is only used during test and each time its infos are erased.
     yarn // install
     yarn db:dev:restart // start postgres in docker and push migrations
     yarn start:dev // start api in dev mode
+
+#### Future plan
++ Deploy database in cloud provider to make it accessible from everywhere.This way we are implementing SAAS model,as db is hosted in cloud.As all database updates/maintenance will be done by vendor.
