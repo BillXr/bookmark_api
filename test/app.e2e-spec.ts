@@ -213,9 +213,9 @@ describe('App e2e', () => {
     describe('Edit bookmark by id', () => {
       const dto: EditBookmarkDto = {
         title:
-          'Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!)',
+          'Edit bookmark',
         description:
-          'Learn how to use Kubernetes in this complete course. Kubernetes makes it possible to containerize applications and simplifies app deployment to production.',
+          'Learn how to change your bookmarks.',
       };
       it('should edit bookmark', () => {
         return pactum
